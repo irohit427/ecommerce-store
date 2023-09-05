@@ -37,3 +37,8 @@ export interface Color {
   name: string;
   value: string;
 };
+
+export type Store = {
+  label: string;
+  value: string;
+}
